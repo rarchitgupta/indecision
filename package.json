@@ -8,7 +8,7 @@
   "scripts": {
     "server": "live-server public/",
     "build:dev": "webpack",
-    "build:prod": "webpack -p --env production",
+    "build": "webpack -p --env production",
     "dev-server": "webpack-dev-server",
     "predeploy": "npm run build",
     "deploy": "gh-pages -d build"
